@@ -29,7 +29,7 @@
     width: 33.33%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     
     .row-sm {
         display: inline-flex;
@@ -46,3 +46,16 @@
     }
 
 }
+
+/* @media (max-width: 628px) {
+
+    .row-sm {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .col-sm-12 {
+        width: 45%;
+        margin: 2rem auto;
+    }
+} */

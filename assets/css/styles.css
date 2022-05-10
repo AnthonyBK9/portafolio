@@ -255,6 +255,179 @@ img {
 }
 
 
+
+
+/* ============= ABOUT ME - Acerca de mi ============== */
+
+.about-me {
+    margin-top: 6.6rem;
+}
+
+/* ============= SERVICES - Servicios ============== */
+
+.services {
+    margin-top: 10rem;
+}
+
+.services_title {
+    margin-bottom: 5rem;
+}
+
+.card {
+    background: var(--color-font);
+    border-radius: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.card_header {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('/assets/img/Ellipse\ 14.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card_img img{
+    width: 100%;
+    margin: 5rem auto 0;
+}
+
+.card_body {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.card_title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card_text {
+    font-size: 1.6rem;
+    color: #9B9A9A;
+    margin-bottom: 3rem;
+}
+
+/* ============= SKILLS - Habilidades ============== */
+
+.skills {
+    margin-top: 10rem;
+}
+
+.skills_body {
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.skills_subtitle {
+    color: var(--color-font);
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.skills_percentage {
+    color: var(--color-title);
+    font-size: 2.5rem;
+}
+
+.skills_section {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.skills_percentage {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.skills_progress {
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+    height: 1.5rem;
+    }
+    
+    ::-webkit-progress-bar-value {background-color: var(--color-title); border-radius: 2rem;}
+    ::-webkit-progress-value {background-color: var(--color-title); border-radius: 2rem;}
+    /* ::-webkit-progress-bar {background-color: var(--color-title); border-radius: 2rem;} */
+    ::-moz-progress-bar {background-color: var(--color-title); border-radius: 2rem;}
+    
+    
+    /* @keyframes prog {
+    0% {width: 0%; background-color: #f1f1f1;}
+    100% {width: 100%; color: #000;}
+    } */
+
+/* ============= BRIEFCASE - Portafolio ============== */
+
+.briefcase {
+    margin: 6rem;
+}
+
+.briefcase_header{
+    margin-bottom: 3rem;
+}
+
+.briefcase_body {
+    width: 80%;
+    margin: auto;
+}
+
+.scroll-x {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1rem
+}
+
+.briefcase_body img{
+    width: 30%;
+}
+
+/* ============= CONTACT - Contacto ============== */
+
+.contact_container {
+    margin: auto;
+}
+
+.card_contact {
+    
+}
+
+.contact_body {
+    width: 75%;
+    /* margin: auto; */
+}
+
+.contact {
+    margin-bottom: 6rem;
+}
+/* ============= FOOTER ============== */
+
+.footer {
+    margin: 0;
+    height: 10rem;
+    width: 100%;
+    background: #4f505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-title);
+    font-size: 1.5rem;
+}
+
+/* ============ Media Queries ================= */
+
 @media (max-width: 768px) {
 
     .home__container {
@@ -350,6 +523,47 @@ img {
         font-size: 2.5rem;
         font-weight: 500;
     }
+
+    /* =============== Services 628px=============== */
+
+    .services {
+        margin-top: 10rem;
+    }
+    
+    .services_title {
+        margin-bottom: 5rem;
+    }
+    
+    .card {
+        background: var(--color-font);
+        border-radius: 1rem;
+        width: 60%;
+        margin: 0 auto;
+        height: 90%;
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
+    
+    .card_img img{
+        width: 100%;
+        margin: 5rem auto 0;
+    }
+    
+    .card_body {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .card_title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .card_text {
+        font-size: 1.4rem;
+        color: #9B9A9A;
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 628px) {
@@ -387,6 +601,46 @@ img {
         font-size: 2rem;
         font-weight: 500;
     }
+/* =============== Services 628px=============== */
+
+    .services {
+        margin-top: 10rem;
+    }
+    
+    .services_title {
+        margin-bottom: 5rem;
+    }
+    
+    .card {
+        background: var(--color-font);
+        border-radius: 1rem;
+        width: 70%;
+        margin: 0 auto;
+        height: 90%;
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
+    
+    .card_img img{
+        width: 100%;
+        margin: 5rem auto 0;
+    }
+    
+    .card_body {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .card_title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .card_text {
+        font-size: 1.4rem;
+        color: #9B9A9A;
+        margin-bottom: 3rem;
+    }
 
 }
 
@@ -419,18 +673,46 @@ img {
 
     .title {
         color: var(--color-title);
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .intro {
         color: var(--color-font);
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .title__text {
         color: var(--color-font);
         font-size: 1.8rem;
         font-weight: 500;
+    }
+
+/* =============== Services 567px =============== */
+
+    .card {
+        background: var(--color-font);
+        border-radius: 1rem;
+        width: 65%;
+        margin: 0 auto;
+        height: 100%;
+        padding-bottom: rem;
+        overflow: hidden;
+    }
+
+    .card_img img{
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+       
+    .card_title {
+        font-size: 1.6rem;
+        margin-bottom: .8rem;
+    }
+    
+    .card_text {
+        font-size: 1.4rem;
+        color: #9B9A9A;
+        margin-bottom: 3rem;
     }
 
 }
@@ -501,6 +783,34 @@ img {
         font-size: 1.6rem;
         font-weight: 500;
     }
+
+    /* =============== Services 425px =============== */
+
+    .card {
+        background: var(--color-font);
+        border-radius: 1rem;
+        width: 85%;
+        margin: 0 auto;
+        height: 100%;
+        padding-bottom: rem;
+        overflow: hidden;
+    }
+
+    .card_img img{
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+       
+    .card_title {
+        font-size: 1.6rem;
+        margin-bottom: .8rem;
+    }
+    
+    .card_text {
+        font-size: 1.4rem;
+        color: #9B9A9A;
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 375px) {
@@ -568,6 +878,34 @@ img {
         color: var(--color-font);
         font-size: 1.4rem;
         font-weight: 500;
+    }
+
+    /* =============== Services 375px =============== */
+
+    .card {
+        background: var(--color-font);
+        border-radius: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding-bottom: rem;
+        overflow: hidden;
+    }
+
+    .card_img img{
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+       
+    .card_title {
+        font-size: 1.4rem;
+        margin-bottom: .8rem;
+    }
+    
+    .card_text {
+        font-size: 1.2rem;
+        color: #9B9A9A;
+        margin-bottom: 3rem;
     }
 }
 
@@ -670,168 +1008,4 @@ img {
         text-align: justify;
     }
 
-}
-
-/* ============= ABOUT ME - Acerca de mi ============== */
-
-.about-me {
-    margin-top: 6.6rem;
-}
-
-/* ============= SERVICES - Servicios ============== */
-
-.services {
-    margin-top: 10rem;
-}
-
-.services_title {
-    margin-bottom: 5rem;
-}
-
-.card {
-    background: var(--color-font);
-    border-radius: 1rem;
-    width: 70%;
-    margin: 0 auto;
-    height: 100%;
-    padding-bottom: 2rem;
-    overflow: hidden;
-}
-
-.card_header {
-    display: inline-flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url('/assets/img/Ellipse\ 14.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
-.card_img img{
-    width: 100%;
-    margin: 5rem auto 0;
-}
-
-.card_body {
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.card_title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.card_text {
-    font-size: 1.6rem;
-    color: #9B9A9A;
-    margin-bottom: 3rem;
-}
-
-/* ============= SKILLS - Habilidades ============== */
-
-.skills {
-    margin-top: 10rem;
-}
-
-.skills_body {
-    width: 60%;
-    margin: auto;
-    margin-top: 2rem;
-}
-
-.skills_subtitle {
-    color: var(--color-font);
-    font-size: 2.5rem;
-    margin-top: 2rem;
-}
-
-.skills_percentage {
-    color: var(--color-title);
-    font-size: 2.5rem;
-}
-
-.skills_section {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: .5rem;
-}
-
-.skills_percentage {
-    margin-top: 2rem;
-    margin-left: 2rem;
-}
-
-.skills_progress {
-    border: none;
-    border-radius: 2rem;
-    width: 100%;
-    height: 1.5rem;
-    animation: prog 2s linear;
-    }
-    
-    ::-webkit-progress-bar-value {background-color: var(--color-title); border-radius: 2rem;}
-    ::-webkit-progress-value {background-color: var(--color-title); border-radius: 2rem;}
-    ::-moz-progress-bar {background-color: var(--color-title); border-radius: 2rem;}
-    
-    /* @keyframes prog {
-    0% {width: 0%; background-color: #f1f1f1;}
-    100% {width: 100%; color: #000;}
-    } */
-
-/* ============= BRIEFCASE - Portafolio ============== */
-
-.briefcase {
-    margin: 6rem;
-}
-
-.briefcase_header{
-    margin-bottom: 3rem;
-}
-
-.briefcase_body {
-    width: 80%;
-    margin: auto;
-}
-
-.scroll-x {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 1rem
-}
-
-.briefcase_body img{
-    width: 30%;
-}
-
-/* ============= CONTACT - Contacto ============== */
-
-.contact_container {
-    margin: auto;
-}
-
-.contact_body {
-    width: 65%;
-    /* margin: auto; */
-}
-
-.contact {
-    margin-bottom: 6rem;
-}
-/* ============= FOOTER ============== */
-
-.footer {
-    margin: 0;
-    height: 10rem;
-    width: 100%;
-    background: #4f505b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-title);
-    font-size: 1.5rem;
 }
