@@ -180,11 +180,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40vh;
-    height: 40vh;
+    width: 70vh;
+    height: 70vh;
     background: rgb(209 206 202 / 25%);
     border-radius: 50%;
-    left: 28%;
+    left: calc(50% - 35vh)
   } 
 
 .home {
@@ -309,7 +309,7 @@ img {
 }
 
 .card_text {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: #9B9A9A;
     margin-bottom: 3rem;
 }
@@ -358,7 +358,7 @@ img {
     
     ::-webkit-progress-bar-value {background-color: var(--color-title); border-radius: 2rem;}
     ::-webkit-progress-value {background-color: var(--color-title); border-radius: 2rem;}
-    /* ::-webkit-progress-bar {background-color: var(--color-title); border-radius: 2rem;} */
+    ::-webkit-progress-bar {background-color: white; border-radius: 2rem;}
     ::-moz-progress-bar {background-color: var(--color-title); border-radius: 2rem;}
     
     
@@ -392,26 +392,12 @@ img {
 
 .briefcase_body img{
     width: 30%;
+    margin: 0 auto;
 }
 
 /* ============= CONTACT - Contacto ============== */
 
-.contact_container {
-    margin: auto;
-}
 
-.card_contact {
-    
-}
-
-.contact_body {
-    width: 75%;
-    /* margin: auto; */
-}
-
-.contact {
-    margin-bottom: 6rem;
-}
 /* ============= FOOTER ============== */
 
 .footer {
@@ -564,6 +550,41 @@ img {
         color: #9B9A9A;
         margin-bottom: 3rem;
     }
+
+    /* =============== Skills 768px=============== */
+
+    .skills {
+        margin-top: 10rem;
+    }
+    
+    .skills_body {
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .skills_subtitle {
+        color: var(--color-font);
+        font-size: 2.1rem;
+        margin-top: 2rem;
+    }
+    
+    .skills_percentage {
+        color: var(--color-title);
+        font-size: 2.1rem;
+    }
+    
+    .skills_percentage {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .skills_progress {
+        border: none;
+        border-radius: 2rem;
+        width: 100%;
+        height: 1.2rem;
+    }
 }
 
 @media (max-width: 628px) {
@@ -641,7 +662,40 @@ img {
         color: #9B9A9A;
         margin-bottom: 3rem;
     }
+/* =============== Skills 628px=============== */
 
+    .skills {
+        margin-top: 10rem;
+    }
+    
+    .skills_body {
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .skills_subtitle {
+        color: var(--color-font);
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    
+    .skills_percentage {
+        color: var(--color-title);
+        font-size: 1.8rem;
+    }
+    
+    .skills_percentage {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .skills_progress {
+        border: none;
+        border-radius: 2rem;
+        width: 100%;
+        height: 1rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -687,7 +741,14 @@ img {
         font-weight: 500;
     }
 
-/* =============== Services 567px =============== */
+    /* =============== About Me 425px =============== */
+    .about-me_text {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* =============== Services 567px =============== */
 
     .card {
         background: var(--color-font);
@@ -784,6 +845,13 @@ img {
         font-weight: 500;
     }
 
+    
+    /* =============== About Me 425px =============== */
+    .about-me_text {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
     /* =============== Services 425px =============== */
 
     .card {
@@ -811,6 +879,43 @@ img {
         color: #9B9A9A;
         margin-bottom: 3rem;
     }
+
+    /* =============== Skills 425px =============== */
+
+    .skills {
+        margin-top: 10rem;
+    }
+    
+    .skills_body {
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .skills_subtitle {
+        color: var(--color-font);
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    
+    .skills_percentage {
+        color: var(--color-title);
+        font-size: 1.2rem;
+    }
+    
+    .skills_percentage {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .skills_progress {
+        border: none;
+        border-radius: 2rem;
+        width: 100%;
+        height: 1rem;
+    }
+
+    
 }
 
 @media (max-width: 375px) {
@@ -906,6 +1011,47 @@ img {
         font-size: 1.2rem;
         color: #9B9A9A;
         margin-bottom: 3rem;
+    }
+
+    .about-me_text {
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    /* =============== Skills 375px =============== */
+
+    .skills {
+        margin-top: 10rem;
+    }
+    
+    .skills_body {
+        width: 60%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    
+    .skills_subtitle {
+        color: var(--color-font);
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    
+    .skills_percentage {
+        color: var(--color-title);
+        font-size: 1.2rem;
+    }
+    
+    .skills_percentage {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .skills_progress {
+        border: none;
+        border-radius: 2rem;
+        width: 100%;
+        height: 1rem;
     }
 }
 
@@ -1004,8 +1150,8 @@ img {
 
     .about-me_text {
         margin-top: 1.5rem;
-        font-size: 1.2rem;
-        text-align: justify;
+        font-size: 1rem;
+        text-align: center;
     }
 
 }
