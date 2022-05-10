@@ -31,14 +31,14 @@
 
 @media (max-width: 767px) {
     
-    .row {
-        display: flex; 
+    .row-sm {
+        display: inline-flex;
         flex-wrap: wrap;
-        align-items: flex-end;
     }
-    
+
     .col-sm-12 {
-        width: 100%;
+        width: 55%;
+        margin: 2rem auto;
     }
 
     .col-sm-6 {
