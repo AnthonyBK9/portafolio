@@ -254,6 +254,11 @@ img {
     text-decoration: none;
 }
 
+.home__sites__icon:hover {
+    background: #34B0BE;
+    color: #fff;
+}
+
 
 
 
