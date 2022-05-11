@@ -378,24 +378,17 @@ img {
 }
 
 .briefcase_body {
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 
-.scroll-x {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 1rem
-}
-
 .briefcase_body img{
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
 }
 
 /* ============= CONTACT - Contacto ============== */
+
 
 
 /* ============= FOOTER ============== */
@@ -510,7 +503,7 @@ img {
         font-weight: 500;
     }
 
-    /* =============== Services 628px=============== */
+    /* =============== Services 768px=============== */
 
     .services {
         margin-top: 10rem;
@@ -584,6 +577,26 @@ img {
         border-radius: 2rem;
         width: 100%;
         height: 1.2rem;
+    }
+
+    /* ============= Briefcase 768px ============== */
+
+    .briefcase {
+        margin: 6rem;
+    }
+
+    .briefcase_header{
+        margin-bottom: 3rem;
+    }
+
+    .briefcase_body {
+        width: 95%;
+        margin: auto;
+    }
+
+    .briefcase_body img{
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -696,6 +709,26 @@ img {
         width: 100%;
         height: 1rem;
     }
+
+    /* ============= Briefcase 628px ============== */
+
+    .briefcase {
+        margin: 6rem;
+    }
+
+    .briefcase_header{
+        margin-bottom: 3rem;
+    }
+
+    .briefcase_body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .briefcase_body img{
+        width: 120%;
+        margin: 0 0 0 -3rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -774,6 +807,26 @@ img {
         font-size: 1.4rem;
         color: #9B9A9A;
         margin-bottom: 3rem;
+    }
+
+    /* ============= Briefcase 576px ============== */
+
+    .briefcase {
+        margin: 6rem;
+    }
+
+    .briefcase_header{
+        margin-bottom: 3rem;
+    }
+
+    .briefcase_body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .briefcase_body img{
+        width: 140%;
+        margin: 0 0 0 -5rem;
     }
 
 }
@@ -914,8 +967,26 @@ img {
         width: 100%;
         height: 1rem;
     }
-
     
+    /* ============= Briefcase 425px ============== */
+
+    .briefcase {
+        margin: 6rem;
+    }
+
+    .briefcase_header{
+        margin-bottom: 3rem;
+    }
+
+    .briefcase_body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .briefcase_body img{
+        width: 140%;
+        margin: 0 0 0 -3rem;
+    }
 }
 
 @media (max-width: 375px) {
@@ -1154,4 +1225,23 @@ img {
         text-align: center;
     }
 
+    /* ============= Briefcase 425px ============== */
+
+    .briefcase {
+        margin: 6rem;
+    }
+
+    .briefcase_header{
+        margin-bottom: 3rem;
+    }
+
+    .briefcase_body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .briefcase_body img{
+        width: 140%;
+        margin: 0 0 0 -1.7rem;
+    }
 }
