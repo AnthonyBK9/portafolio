@@ -14,16 +14,16 @@
         <nav class="nav">
             <button class="nav_toggle"><i class="fas fa-bars"></i></button>
             <ul class="nav_menu">
-                <li class="nav_menu-item"><a href="#" class="nav_menu-link nav_menu-link_active">Home</a></li>
-                <li class="nav_menu-item"><a href="#about-me" class="nav_menu-link">Acerca de mi</a></li>
-                <li class="nav_menu-item"><a href="#services" class="nav_menu-link">Servicios</a></li>
-                <li class="nav_menu-item"><a href="#skills" class="nav_menu-link">Mis habilidades</a></li>
-                <li class="nav_menu-item"><a href="#briefcase" class="nav_menu-link">Mi portafolio</a></li>
-                <li class="nav_menu-item"><a href="#contact" class="nav_menu-link">Contacto</a></li>
+                <li class="nav_menu-item"><a href="#" data-url="home" class="nav_menu-link">Home</a></li>
+                <li class="nav_menu-item"><a href="#about-me" data-url="about-me" class="nav_menu-link">Acerca de mi</a></li>
+                <li class="nav_menu-item"><a href="#services" data-url="services" class="nav_menu-link">Servicios</a></li>
+                <li class="nav_menu-item"><a href="#skills" data-url="skills" class="nav_menu-link">Mis habilidades</a></li>
+                <li class="nav_menu-item"><a href="#briefcase" data-url="briefcase" class="nav_menu-link">Mi portafolio</a></li>
+                <li class="nav_menu-item"><a href="#contact" data-url="contact" class="nav_menu-link">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <section class="home" id="home">
+    <section class="home section" id="home">
         <div class="circle p-absolute">
             <img src="/assets/img/developer-d.svg" alt="developer">
         </div>
@@ -60,10 +60,10 @@
         </div>
         <div id="about-me"></div>
     </section>
-    <section class="about-me">
+    <section class="about-me section" id="about-me">
         <div class="row container-md">
             <div class="col-md-12">
-                <h2 class="title text_center">Acerca de mi</h2>
+                <h2 class="title text_center about-me_title">Acerca de mi</h2>
                 <p class="text text_center about-me_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus culpa dolore obcaecati. Libero hic sint mollitia quod itaque reprehenderit id perspiciatis consequatur sed, magnam, officiis impedit reiciendis. Sit, asperiores?
                 Voluptas reiciendis impedit libero accusantium consequuntur ab laboriosam provident. Consequatur, est culpa in repudiandae doloremque quae ipsam dolor quo assumenda mollitia ab itaque, voluptates non sapiente dolores officiis illum esse.
                 Voluptatem mollitia eveniet incidunt eligendi numquam sit doloremque odit qui, hic voluptas obcaecati officiis accusantium quas velit vero, non ullam dignissimos, consequuntur alias veniam modi itaque neque similique? Dicta, eligendi.
@@ -72,7 +72,7 @@
         </div>
         <div id="services"></div>
     </section>
-    <section class="services">
+    <section class="services section" id="services">
         <div class="row services_title">
             <div class="col-md-12">
                 <h2 class="title text_center">Servicios</h2>
@@ -121,7 +121,7 @@
         </div>
         <div id="skills"></div>
     </section>
-    <section  class="skills">
+    <section  class="skills section" id="skills">
         <div class="skills-header">
             <h2 class="title text_center">Mis habilidades</h2>
         </div>
@@ -173,7 +173,7 @@
         </div>
         <div id="briefcase"></div>
     </section>
-    <section class="briefcase" >
+    <section class="briefcase section" id="briefcase">
         <div class="briefcase_header">
             <h2 class="title text_center">Portafolio</h2>
         </div>
@@ -196,7 +196,7 @@
         </div>
         <div id="contact"></div>
     </section>
-    <section class="contact" >
+    <section class="contact section" id="contact">
         <div class="contact_header">
             <h2 class="title text_center">Contacto</h2>
         </div>

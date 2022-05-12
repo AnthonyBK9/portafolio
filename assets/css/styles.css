@@ -265,6 +265,10 @@ img {
     margin-top: 6.6rem;
 }
 
+.about-me_title {
+    margin-bottom: 4.5rem;
+}
+
 /* ============= SERVICES - Servicios ============== */
 
 .services {
@@ -1520,4 +1524,5 @@ img {
         color: #7c7878;
         margin-bottom: 3rem;
     }
+
 }
