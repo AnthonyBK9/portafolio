@@ -29,6 +29,19 @@
     width: 33.33%;
 }
 
+.row_contact-1 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.row_contact-2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media (max-width: 769px) {
     
     .row-sm {
