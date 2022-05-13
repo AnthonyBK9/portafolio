@@ -2,16 +2,22 @@ const btnMenu = document.querySelector('.nav_toggle');
 const navMenu = document.querySelector('.nav_menu');
 const sections = document.querySelectorAll('.section');
 const menuItems = document.querySelectorAll('.nav_menu-link');
+const link = document.querySelector('#link');
 
-btnMenu.addEventListener('click', toggleMenu);
+btnMenu.addEventListener('click', toggleMenu)
 function toggleMenu() {
-    // if ( navMenu.classList.contains('nav_menu-visible') ) {
-    //     navMenu.classList.remove('nav_menu-visible');
-    // } else {
-    //     navMenu.classList.add('nav_menu-visible');
-    // }
     navMenu.classList.toggle('nav_menu-visible');
 }
+
+link.addEventListener('click', toggleLink);
+function toggleLink() {
+    navMenu.classList.toggle('nav_menu-visible');
+}
+
+window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    header.classList.toggle('header_bar', window.scrollY>0)
+})
 
 const functionObserver = entries => {
     entries.forEach(entry => {
